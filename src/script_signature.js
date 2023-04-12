@@ -33,7 +33,10 @@ function decode(buffer) {
   return { signature, hashType };
 }
 exports.decode = decode;
+
+// We are expecting a DER Signature already
 function encode(signature, hashType) {
+  return signature;
   typeforce(
     {
       signature: types.BufferN(64),

@@ -1,7 +1,7 @@
 {
-  "name": "bitcoinjs-lib",
-  "version": "6.1.0",
-  "description": "Client-side Bitcoin JavaScript library",
+  "name": "der-bitcoinjs-lib",
+  "version": "0.0.2",
+  "description": "Fork of client-side Bitcoin JavaScript library, small changes to accept already DER Encoded Signatures",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "engines": {
